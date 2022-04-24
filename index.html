@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/css/style.css" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>My Portofolio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header id="navbar">
+      <div class="navbar-logo">
+        <a href="#"
+          ><h2>Portofolio<span style="color: rgb(246, 67, 96)">.</span></h2></a
+        >
+      </div>
+
+      <!-- Hamburger Menu -->
+      <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false"></button>
+
+      <nav id="primary-navigation" data-visible="false">
+        <a href="#welcome-section" class="nav-link active">Home</a>
+        <a href="#about-me" class="nav-link">About Me</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#social" class="nav-link">Social Media</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Welcome -->
+    <section id="welcome-section">
+      <div class="container">
+        <img src="public/img/profile.png" alt="profile" class="profile-pic" />
+        <h1>Hi my name is <span>Hakim</span>.</h1>
+        <p>I'm a Fullstack Developer.</p>
+        <a href="#contact" class="btn-link">Contact Me</a>
+      </div>
+    </section>
+    <div class="container">
+      <!-- About Me -->
+      <section id="about-me">
+        <h1 class="title">About Me</h1>
+        <div class="about mt">
+          <img src="public/img/profile.png" alt="profile-pic" class="profile-pic mb" />
+          <div class="card ml d-flex">
+            <div class="flex-start">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, culpa! Recusandae odio ipsam accusamus magnam.</p>
+              <a href="#" class="btn-link">Download Cv</a>
+            </div>
+            <div class="flex-end mt">
+              <h2 class="title">Skills</h2>
+              <!-- Skill Bar -->
+              <div class="skill-bar">
+                <h4>Html</h4>
+                <div class="bar">
+                  <div class="html">75%</div>
+                </div>
+              </div>
+              <div class="skill-bar mt">
+                <h4>Css</h4>
+                <div class="bar">
+                  <div class="css color-bar">73%</div>
+                </div>
+              </div>
+              <div class="skill-bar mt">
+                <h4>JavaScript</h4>
+                <div class="bar">
+                  <div class="js color-bar">70%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <h1 class="title mt">Projects</h1>
+        <div class="my-projects mt">
+          <div class="project-tile">
+            <div class="card">
+              <div class="card-header">
+                <div class="img-card">
+                  <img src="" alt="projects-picture" />
+                </div>
+              </div>
+              <div class="card-body">
+                <p>Tribute Page</p>
+                <a href="codepen.io/hakimrizm/pen/gOGaXzR" target="_blank" class="btn-link">See Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-tile">
+            <div class="card">
+              <div class="card-header">
+                <div class="img-card">
+                  <img src="" alt="projects-picture" />
+                </div>
+              </div>
+              <div class="card-body">
+                <p>Survey Form</p>
+                <a href="https://hakimrizm.github.io/survey-form/" target="_blank" class="btn-link">See Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-tile">
+            <div class="card">
+              <div class="card-header">
+                <div class="img-card">
+                  <img src="" alt="projects-picture" />
+                </div>
+              </div>
+              <div class="card-body">
+                <p>Landing Page</p>
+                <a href="https://hakimrizm.github.io/landing-page/" target="_blank" class="btn-link">See Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-tile">
+            <div class="card">
+              <div class="card-header">
+                <div class="img-card">
+                  <img src="" alt="projects-picture" />
+                </div>
+              </div>
+              <div class="card-body">
+                <p>Technical Documentation</p>
+                <a href="https://hakimrizm.github.io/technical-documentation/" target="_blank" class="btn-link">See Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="social">
+        <h1 class="title">Social Media</h1>
+        <div class="social-media mt mb">
+          <span class="icon"
+            ><a href="https://github.com/Hakimrizm" id="profile-link" target="_blank"><i class="fa-brands fa-github"></i></a
+          ></span>
+          <span class="icon"
+            ><a href="https://www.instagram.com/hakimrizm/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a
+          ></span>
+          <span class="icon">
+            <a href="https://youtube.com/c/MuhammadRizkyhakim" target="_blank">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </span>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact-main mt">
+          <aside>
+            <h1 class="title">Contact <span style="color: red">Me</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </aside>
+          <main>
+            <form action="">
+              <div class="flex">
+                <input type="text" placeholder="Your Name .." />
+                <input type="email" placeholder="Your Email .." />
+              </div>
+              <div class="form-control">
+                <input type="text" placeholder="Subject .." />
+              </div>
+              <div class="form-control">
+                <input type="tel" placeholder="Message .." />
+              </div>
+
+              <button class="btn-red">Send Message</button>
+            </form>
+          </main>
+        </div>
+      </section>
+    </div>
+
+    <footer>&copy; Bandung</footer>
+
+    <script src="public/js/script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
